@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+  background-color: #f5f5eb; /* Soft beige background */
+  font-family: 'Inter', sans-serif;
+  color: #4d6047; /* Soft green text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  
+}
+
+nav a {
+ /* nav letting */
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #7A9C57; /*  rgb(122, 156, 87); */
+  font-family: Inter;
+  line-height: 73px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+
+nav a:hover {
+  /* nav action */
+  color: #4a654a;
+}
+
+/* Hero section banner photo */
+.hero {
+  width: 100%;
+  height: 50vh;
+  background: url('/Users/katqi/Desktop/VScode/my-app/public/images/banner.png') no-repeat center center/cover;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  font-size: 6px;
+  color: #4d6047;
+}
+.hero h3 {
+ /* Watch Hill, RI, 2024 */
+position: absolute;
+width: 220px;
+height: 30px;
+left: 34px;
+top: 834px;
+display: flex;
+flex-direction: row;
+align-items: left;
+
+color: rgb(85, 111, 59);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #4d6047;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 50px auto;
+  width: 80%;
+} */
+
+.about-text {
+  color: rgba(175, 207, 163, 0.87);
+  font-family: Inter;
+  font-weight: 200;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  font-size: 16px;
+  
+  
+
+/* Profile_pic 
+  position: left;
+  width: 523.46px;
+  height: 594px;
+  left: 102px;
+  top: 878px;
+  */
+
+}
+
+.about-text h2 {
+  color: rgba(175, 207, 163, 0.87);
+  font-family: Inter;
+  font-size: 30;
+  font-weight: 250;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 10px;
+  flex: 296px;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+  max-width: 500px;
+  margin-left: 60%; /* Spacing between image and text */
+}
+
+.about-text p {
+  color: rgb(112, 143, 82);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 200px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  flex-direction: column;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 20px 0px;
+  max-width: 550px;
+  margin-left: 60%; /* Spacing between image and text */
+}
+
+/* Flexbox container */
+.profile-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  gap: 10px; /* Adds spacing between the profile pic and title card */
+  margin-top: 20px; /* Adjust spacing */
+}
+
+/* Profile picture settings */
+.profile-pic {
+  /* Profile_pic */
+position: static;
+width: 523.46px;
+height: 594px;
+/* Inside Auto Layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;*/
+object-fit: cover;
+}
+
+/* Title card */
+.name-card {
+  background-color: transparent;
+  padding: 10px;
+}
+
+/* Name styling "Katjana Gora*/
+.name-card h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #7A9C57; /* Adjust color based on Pixso */
+  margin: 10px 0;
+}
+
+/* Text under name (h1) */
+.name-card-content p {
+  color: #7A9C57; /* Adjust color based on Figma */
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+
+/* Footer / Contact Icons */
+.footer {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  margin-top: 30px;
+}
+
+.footer i {
+  font-size: 18px;
+  margin: 0 10px;
+  color: #4d6047;
+}
+
+.footer i:hover {
+  color: #2f3e2f;
+}
+
+
+
+
+
